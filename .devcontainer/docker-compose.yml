@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  
+  jupyter:
+    build: .
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - ~/.gitconfig:/root/.gitconfig
+      - ..:/workspace
+    command: sleep infinity
