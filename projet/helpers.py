@@ -18,7 +18,6 @@ def df_initial_analysis(df, name_df):
         None.
         Print the initial analysis on the DataFrame. 
     """
-    print("\n")
     if df.empty:
         print("The", name_df, "dataset is empty. Please verify the file.")
     else:
@@ -37,5 +36,22 @@ def df_initial_analysis(df, name_df):
         print("Number of values/records per columns in", name_df, "dataset")
         print(df.count().sort_values(ascending=False))
 
+
+def remove_empty_columns(df):
+    """
+    Remove empty columns in DataFramte.
+
+    Args:
+        df (pandas.DataFrame): DataFrame to remove empty columns.
+
+    Returns:
+        df (pandas.DataFrame): DataFrame withou empty columns.
+    """
+    empty_cols = [col for col in df.columns if df[col].isna().all()]
+    for col in df.columns:
+        for empty_col in empty_cols:
+            if col == empty_col:
+                df = df.drop([col], axis=1)
+    return df
 
         
