@@ -18,6 +18,7 @@ def df_initial_analysis(df, name_df):
         None.
         Print the initial analysis on the DataFrame. 
     """
+    print("\n")
     if df.empty:
         print("The", name_df, "dataset is empty. Please verify the file.")
     else:
@@ -31,7 +32,7 @@ def df_initial_analysis(df, name_df):
         print("There are", df_rows_duplicates.shape[0], "full duplicates rows")
         print("There are", len(empty_cols), "empty columns")
         if len(empty_cols) != 0:
-            print(" The empty columns are:", empty_cols)
+            print("   The empty columns are:", empty_cols)
         print("------------------------------------------------------------------------\n")
         print("Number of values/records per columns in", name_df, "dataset")
         print(df.count().sort_values(ascending=False))
