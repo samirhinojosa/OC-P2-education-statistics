@@ -23,7 +23,7 @@ def df_initial_analysis(df, name_df):
     else:
         empty_cols = [col for col in df.columns if df[col].isna().all()]
         df_rows_duplicates = df[df.duplicated()]
-
+        
         print("The", name_df, "dataset shape is:", df.shape[0], "rows &", df.shape[1], "columns")
         print("Total of NaN values in the", name_df, "dataset is:", df.isna().sum().sum())
         print("Percentage of NaN values in the", name_df, "dataset is:", 
@@ -35,6 +35,7 @@ def df_initial_analysis(df, name_df):
         print("------------------------------------------------------------------------\n")
         print("Number of values/records per columns in", name_df, "dataset")
         print(df.count().sort_values(ascending=False))
+
 
 
 def remove_empty_columns(df):
