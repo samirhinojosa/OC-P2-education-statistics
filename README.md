@@ -23,12 +23,17 @@ Here are the different **questions** Mark would like to explore, which you noted
     - entity_relationship.drawio: Entity relationship diagrame make with [draw.io](https://app.diagrams.net/)
     - Project 2 presentation: Project presentation in French
 - img: Images and graphs of the project
-- datasets: This folder is empty. You can get the datasets [here](https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/Parcours_data_scientist/Projet+-+Donn%C3%A9es+%C3%A9ducatives/Projet+Python_Dataset_Edstats_csv.zip)
+
     - There is one datasets "List of all countries with their 2 digit codes (ISO 3166-1)" in other link.
     You can get it [here](https://datahub.io/core/country-list)
+
+The **datasets** should be located in folder called **"datasets"** in the root path.
+You can get the datasets [here](https://s3-eu-west-1.amazonaws.com/static.oc-static.com/prod/courses/files/Parcours_data_scientist/Projet+-+Donn%C3%A9es+%C3%A9ducatives/Projet+Python_Dataset_Edstats_csv.zip)
 
 For more details / information about the datasets, you can visit the following links
 - [Education Statistics](https://datacatalog.worldbank.org/dataset/education-statistics)
 - [Education Statistics (EdStats)](https://datatopics.worldbank.org/education/)
+
+The notebook is optimized to be used with Jupyter lab.
 
     
