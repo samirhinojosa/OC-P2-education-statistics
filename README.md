@@ -24,7 +24,7 @@ Here are the different **questions** Mark would like to explore, which you noted
     - Project 2 presentation: Project presentation in French
 - img: Images and graphs of the project
 
-    - There is one datasets "List of all countries with their 2 digit codes (ISO 3166-1)" in other link.
+    - There is one datasets "List of all countries with their 2 digit codes (ISO 3166-1)" in other link. <br>
     You can get it [here](https://datahub.io/core/country-list)
 
 The **datasets** should be located in folder called **"datasets"** in the root path.
