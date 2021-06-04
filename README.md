@@ -33,6 +33,8 @@ For more details / information about the datasets, you can visit the following l
 - [Education Statistics](https://datacatalog.worldbank.org/dataset/education-statistics)
 - [Education Statistics (EdStats)](https://datatopics.worldbank.org/education/)
 
+### **Final note**
+
 The notebook is optimized to be used with Jupyter lab.
 
     
