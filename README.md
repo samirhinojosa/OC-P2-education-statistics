@@ -1,5 +1,4 @@
-# Education Systems 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Education Systems [OpenClassrooms P2]
 
 ## **Problem to solve**
 
