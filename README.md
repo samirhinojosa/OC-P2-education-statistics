@@ -1,4 +1,4 @@
-# Education Systems [OpenClassrooms P2]
+# Education Systems [OC-P2]
 
 ## **Problem to solve**
 
@@ -12,9 +12,9 @@ Determine whether the data on education of **the World Bank** allow to inform th
 
 Here are the different **questions** Mark would like to explore, which you noted during the meeting:
 
-1. Which countries have a strong potential of customers for our services?.
-2. For each of these countries, how will this potential customer develop?.
-3. In which countries should the company operate as a priority?.
+1. Which countries have a strong potential of customers for our services?
+2. For each of these countries, how will this potential customer develop?
+3. In which countries should the company operate as a priority?
 
 ## **The data**
 
